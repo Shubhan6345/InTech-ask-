@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(226, 226, 226);
 }
 
 .row {
@@ -19,21 +19,57 @@ body{
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
   }
-
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: rgb(226, 226, 226);
+    padding: 5px 20px 15px 20px;
+    border-radius: 1px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
   .btn {
-    background-color: #01ffa2;
+    background-color: #afff96ad;
     color: rgb(0, 0, 0);
     padding: 12px;
     margin: 10px 0;
     border: none;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 2px;
     cursor: pointer;
     font-size: 17px;
   }
   
   .btn:hover {
-    background-color: #45a049;
+    background-color: #55e014;
   }
   
   span.price {
